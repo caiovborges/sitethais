@@ -2,7 +2,6 @@
 
 import { useEffect, useRef, useState } from "react"
 import { Button } from "@/components/ui/button"
-import { ArrowDown } from "lucide-react"
 
 export function Hero() {
   const videoRef = useRef<HTMLVideoElement>(null)
@@ -106,16 +105,14 @@ export function Hero() {
           que você guardará para sempre
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-up delay-300">
-          <Button size="lg" className="uppercase tracking-wider text-sm px-8">
-            Solicitar Orçamento
-          </Button>
+          <a href="#contato">
+            <Button size="lg" className="uppercase tracking-wider text-sm px-8">
+              Solicitar Orçamento
+            </Button>
+          </a>
           <Button size="lg" variant="outline" className="uppercase tracking-wider text-sm px-8 bg-transparent">
             Ver Portfolio
           </Button>
-        </div>
-
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-          <ArrowDown className="h-6 w-6 text-muted-foreground" />
         </div>
       </div>
     </section>
