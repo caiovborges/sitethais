@@ -49,6 +49,11 @@ export function Contact() {
 
       toast.success("Mensagem enviada com sucesso!")
       
+      // Rastrear evento Lead no Facebook Pixel
+      if (typeof window !== 'undefined' && (window as any).fbq) {
+        (window as any).fbq('track', 'Lead')
+      }
+      
       // Limpar o formulário
       setFormData({
         name: "",

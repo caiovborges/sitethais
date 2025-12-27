@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import { Cormorant_Garamond, Montserrat } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import { Toaster } from "@/components/ui/sonner"
+import { FacebookPixel } from "@/components/facebook-pixel"
 import "./globals.css"
 
 const cormorant = Cormorant_Garamond({
@@ -46,6 +47,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className={`${cormorant.variable} ${montserrat.variable}`}>
+      <head>
+        <FacebookPixel />
+      </head>
       <body className={`font-sans antialiased`}>
         {children}
         <Analytics />
