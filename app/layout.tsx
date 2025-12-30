@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Thai Lago" }],
   creator: "Thai Lago",
   publisher: "Thai Lago",
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://thailago.com.br"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://thailago.com"),
   alternates: {
     canonical: "/",
   },
