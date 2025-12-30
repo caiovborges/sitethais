@@ -48,7 +48,7 @@ export function Portfolio() {
       id: 5,
        title: "Aquarelas dos Convidados",
       venue: "A5,300G",
-      image: "/portfolio-6.jpg",
+      image: "/portfolio-6.png",
       className: "sm:col-span-1 lg:col-span-1",
     },
   ]

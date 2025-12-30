@@ -18,7 +18,7 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
-  title: "Aquarela em Casamentos | Arte ao Vivo",
+  title: "Pintura ao vivo em casamentos",
   description: "Transforme momentos especiais do seu casamento em obras de arte únicas com aquarela ao vivo",
   generator: "v0.app",
   icons: {
