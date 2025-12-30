@@ -18,9 +18,59 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
-  title: "Pintura ao vivo em casamentos",
-  description: "Transforme momentos especiais do seu casamento em obras de arte únicas com aquarela ao vivo",
-  generator: "v0.app",
+  title: "Pintura ao vivo em casamentos | Thai Lago",
+  description: "Transforme momentos especiais do seu casamento em obras de arte únicas com aquarela ao vivo. Pintura dos noivos e convidados. Arte em casamento em Salvador e região.",
+  keywords: [
+    "pintura ao vivo",
+    "casamento",
+    "aquarela",
+    "pintura de casamento",
+    "arte em casamento",
+    "pintura dos noivos",
+    "pintura ao vivo casamento",
+    "aquarela casamento",
+    "arte casamento Salvador",
+    "pintura convidados casamento",
+  ],
+  authors: [{ name: "Thai Lago" }],
+  creator: "Thai Lago",
+  publisher: "Thai Lago",
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://thailago.com.br"),
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Pintura ao vivo em casamentos | Thai Lago",
+    description: "Transforme momentos especiais do seu casamento em obras de arte únicas com aquarela ao vivo",
+    type: "website",
+    locale: "pt_BR",
+    siteName: "Thai Lago",
+    images: [
+      {
+        url: "/about-thai-lago.png",
+        width: 1200,
+        height: 630,
+        alt: "Thai Lago - Pintura ao vivo em casamentos",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Pintura ao vivo em casamentos | Thai Lago",
+    description: "Transforme momentos especiais do seu casamento em obras de arte únicas com aquarela ao vivo",
+    images: ["/about-thai-lago.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   icons: {
     icon: [
       {
