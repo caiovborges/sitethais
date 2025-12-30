@@ -41,9 +41,6 @@ export function Process() {
                 <h4 className="font-serif text-2xl font-light mb-3">{step.title}</h4>
                 <p className="text-sm text-muted-foreground leading-relaxed">{step.description}</p>
               </div>
-              {index < steps.length - 1 && (
-                <div className="hidden lg:block absolute top-12 left-full w-full h-px bg-border -z-0" />
-              )}
             </div>
           ))}
         </div>
