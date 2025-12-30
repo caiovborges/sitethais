@@ -3,7 +3,7 @@ export function Process() {
     {
       number: "01",
       title: "Consulta Inicial",
-      description: "Conversamos sobre sua visão, estilo e os momentos especiais que deseja capturar no seu casamento.",
+      description: "Conversamos sobre sua visão, estilo e os momentos especiais que deseja capturar no seu casamento. Seja dos convidados ou uma pintura dos noivos. ",
     },
     {
       number: "02",
@@ -13,12 +13,12 @@ export function Process() {
     {
       number: "03",
       title: "O Grande Dia",
-      description: "No dia do casamento, pinto discretamente os momentos escolhidos, criando arte em tempo real.",
+      description: "No dia do casamento, pinto os momentos escolhidos, criando arte em tempo real.",
     },
     {
       number: "04",
       title: "Entrega Final",
-      description: "Finalizo os detalhes e entrego sua obra de arte emoldurada, pronta para decorar sua casa.",
+      description: "Finalizo os detalhes e entrego os presentes dos convidados. No caso da pintura dos noivos, pode ser levada para ser finalizada no ateliê.",
     },
   ]
 

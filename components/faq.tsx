@@ -7,29 +7,29 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 export function FAQ() {
   const faqs = [
     {
-      question: "Gostaria de encomendar uma tela, mas meu casamento já passou. Ainda é possível?",
+      question: "Noivos - Gostaria de encomendar uma tela, mas meu casamento já passou. Ainda é possível?",
       answer:
         "Sim! Mesmo que o seu casamento já tenha acontecido, é totalmente possível encomendar uma pintura baseada em fotos do evento. Nessa opção, recrio o clima e os detalhes do dia.",
     },
     {
-      question: "Thai atende em outros estados e países?",
-      answer:
-        "Sim! Thai atende em outras cidades e estados, com acréscimo de custos de deslocamento e hospedagem quando necessário da artista e assistente. Para casamentos internacionais, é ideal contratação do serviço com pelo menos 6 meses de antecedência.",
-    },
-    {
-      question: "Posso escolher o estilo ou o momento que será pintado?",
-      answer:
-        "Sim! Antes do casamento, conversamos sobre o estilo desejado, as cores, o formato da tela e qual momento vocês gostariam que fosse retratado. Thai dará sugestões com base no seu olhar, do que acredita ser melhor, assim cada pintura é personalizada para contar a história de vocês.",
-    },
-    {
-      question: "A pintura é entregue no mesmo dia?",
+      question: "Noivos - A pintura é entregue no mesmo dia?",
       answer:
         "Não necessariamente. A base da obra é feita no evento, mas depois Thai faz os ajustes e finalizações, bem como o processo de envernizar no estúdio. A entrega final costuma acontecer em até 30 dias.",
     },
     {
-      question: "Qual o tamanho da tela?",
+      question: "Convidados - Como funciona a pintura dos convidados?",
       answer:
-        "Tamanhos padrões como 40x50cm e 50x70cm, mas pode ser adaptado conforme necessidade.",
+        "Antes do casamento, conversamos sobre a quantidade de convidados a serem retratados. No dia, a equipe realiza fotografias dos convidados que serão retratados. As aquarelas são feitas e entregues durante a festa.",
+    },
+    {
+      question: "Thai atende em outros estados ou países?",
+      answer:
+        "Sim, Thai atende na localização que for contratada. São acrescidos custos de deslocamento e outras despesas realcionadas.",
+    },
+    {
+      question: "Qual o tamanho das obras?",
+      answer:
+        "Para telas dos noivos, tamanhos padrões como 40x50cm e 50x70cm, mas pode ser adaptado conforme necessidade. No caso das aquarelas dos convidados, o tamanho padrão é A5 (15x21cm).",
     },
   ]
 
@@ -41,7 +41,7 @@ export function FAQ() {
             Dúvidas Frequentes
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Perguntas Frequentes - Pintura ao vivo dos noivos
+            Perguntas Frequentes - Pintura ao vivo 
           </p>
         </div>
 

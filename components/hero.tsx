@@ -95,13 +95,13 @@ export function Hero() {
       {/* Content */}
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <p className="text-sm md:text-base uppercase tracking-[0.3em] text-muted-foreground mb-6 animate-fade-up">
-          Arte ao Vivo em Casamentos
+          Arte ao Vivo em Eventos
         </p>
         <h2 className="font-serif text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-light leading-tight text-balance mb-8 animate-fade-up delay-100">
-          Transforme momentos em <span className="italic text-primary">aquarela</span>
+          Transforme momentos em <span className="italic text-primary">arte</span>
         </h2>
         <p className="text-base md:text-lg lg:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed animate-fade-up delay-200 text-pretty">
-          Capturo a magia do seu grande dia através de pinturas ao vivo em aquarela, criando memórias artísticas únicas
+          Capturo a beleza do seu grande dia através de pinturas ao vivo, criando memórias artísticas
           que você guardará para sempre
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-up delay-300">
